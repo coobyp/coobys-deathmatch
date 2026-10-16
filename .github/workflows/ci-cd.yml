@@ -72,7 +72,7 @@ jobs:
           find bin -name hl.so -exec cp {} $out/coobydm/dlls/ \;
           find bin -name client.dll -exec cp {} $out/coobydm/cl_dlls/ \;
           find bin -name client.so -exec cp {} $out/coobydm/cl_dlls/ \;
-          cp installer/install.ps1 installer/install.sh $out/
+          cp installer/install.bat installer/install.ps1 installer/install.sh $out/
           cp -r server $out/server
           cp README.md $out/
           ls -R $out
