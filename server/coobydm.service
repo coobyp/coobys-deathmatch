@@ -1,0 +1,15 @@
+# systemd unit: copy to /etc/systemd/system/, set User and paths, then
+#   sudo systemctl enable --now coobydm
+[Unit]
+Description=Cooby's Deathmatch (HLDS)
+After=network-online.target
+
+[Service]
+User=hlds
+Environment=HLDS_DIR=/home/hlds/hlds
+ExecStart=/home/hlds/coobys-deathmatch/server/run_server.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

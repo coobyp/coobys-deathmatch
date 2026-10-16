@@ -1,0 +1,13 @@
+// Cooby's Deathmatch - Half-Life multiplayer mod
+game "Cooby's Deathmatch"
+url_info "https://github.com/coobyp/coobys-deathmatch"
+version "0.1"
+size "0"
+svonly "0"
+cldll "1"
+type "multiplayer_only"
+mpentity "info_player_deathmatch"
+fallback_dir "valve"
+gamedll "dlls\hl.dll"
+gamedll_linux "dlls/hl.so"
+gamedll_osx "dlls/hl.dylib"
