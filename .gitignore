@@ -12,3 +12,5 @@ linux/debug/
 dist/
 bot/.env
 bot/__pycache__/
+installer/Output/
+installer/vc_redist.x86.exe

@@ -18,7 +18,7 @@ Half-Life Deathmatch, but it's ours. Real GoldSrc engine, real Half-Life movemen
 
 1. Own Half-Life on Steam and launch it once.
 2. Grab the latest `coobys-deathmatch` zip from Releases (or the Actions tab) and extract it.
-3. Windows: double-click `install.bat` (you need the x86 Visual C++ 2015-2022 redistributable). Linux/Deck: `./install.sh`.
+3. Windows: run `CoobysDeathmatch-Setup.exe` (it finds Half-Life and installs the Visual C++ runtime for you; SmartScreen may say "unknown publisher", hit More info > Run anyway). No-exe fallback: double-click `install.bat`. Linux/Deck: `./install.sh`.
 4. Restart Steam, launch **Cooby's Deathmatch**, open the console and `connect <server ip:port>`
    (the bot's `/join` command prints the exact line).
 
